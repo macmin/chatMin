@@ -77,6 +77,8 @@ function evaluateMessage(recipientId,message){
 		finalMessage = 'Mi amo es Macario el rey, magestuoso Dios';
 	}else if(isContain(message, 'hola') ){
 		finalMessage = 'Hola, ¿Como estas?';
+	}else if(isContain(message, 'macario') ){
+		finalMessage = '¡No me quieras hackear!';
 	}
 
 	else{
